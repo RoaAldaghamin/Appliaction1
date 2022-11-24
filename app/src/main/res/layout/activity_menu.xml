@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Main menu"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Spinner
+        android:id="@+id/spnItems"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+    />
+
+    <Button
+        android:id="@+id/Showbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Show" />
+
+    <ListView
+        android:id="@+id/listItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
